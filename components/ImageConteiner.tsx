@@ -1,8 +1,12 @@
 import "@/components/ImageConteiner.css"
 
-function ImageConteiner() {
+type Props = {
+    color: string;
+};
+
+function ImageConteiner({color}:Props) {
   return (
-    <div className="contenedor">
+    <div className={`contenedor ${color}`}>
         <img src="/Vector.svg" alt="icon" />
     </div>
   )

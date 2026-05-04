@@ -7,3 +7,15 @@
     align-items: center;
     justify-content: center;
 }
+
+.orange{
+    background-color: #F2994A33;
+}
+
+.yellow {
+    background-color: yellowgreen;
+}
+
+.green {
+    background-color: rgb(123, 204, 189);
+}

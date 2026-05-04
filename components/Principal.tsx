@@ -2,11 +2,14 @@ import "@/components/Principal.css"
 import ImageConteiner from "@/components/ImageConteiner"
 import MessageConteiner from "@/components/MessageConteiner"
 
-function Principal() {
+type Props = {
+    color: string;
+};
+function Principal({color}: Props) {
   return (
     <div className="superior">
         <MessageConteiner></MessageConteiner>
-        <ImageConteiner></ImageConteiner>
+        <ImageConteiner color={color}/>
     </div>
   )
 }
