@@ -1,0 +1,9 @@
+.contenedor {
+    background-color: #F2994A33;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

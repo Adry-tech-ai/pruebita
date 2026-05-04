@@ -1,0 +1,15 @@
+.verdecitos {
+    display: flex;
+    align-items: center;
+}
+
+.porcentaje {
+    font-size: 12px;
+    color: #27AE60;
+    margin-left: 2px;
+}
+
+.flecha {
+    width: 9.33px;
+    height: 9.33px;
+}

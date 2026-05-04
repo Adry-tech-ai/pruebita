@@ -1,0 +1,12 @@
+.numero {
+    font-size: 34px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.mensaje {
+    font-size: 20px;    
+    font-weight: 500;
+    text-align: left;
+    color: #FFFFFFCC;
+}
